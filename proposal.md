@@ -36,4 +36,4 @@ Before the projects deadline I hope I will be able to code in multiple languges 
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
-I will need to learn HTML, CSS, and JavaScript. I will need to reserach about website topics.
+I will need to learn HTML, CSS, and JavaScript. I will need to reserach and understand the basics of website development.
