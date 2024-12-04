@@ -2,15 +2,15 @@
 
 #### Your name
 
-TODO
+Moaz Nasur
 
 #### Your section leader's name
 
-TODO
+Moaz Nasur
 
 #### Project title
 
-TODO
+76ers Roster web
 
 ***
 
@@ -18,12 +18,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I added all the player to the website and added the search bar
 
 #### What have you not done for your project yet?
 
-TODO
+add all the players stats and picture
 
 #### What problems, if any, have you encountered?
 
-TODO
+Nothing so far but im having a little hard time uploding the image of the players to the website.
