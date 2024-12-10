@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Philadelphia 76ers Stats</title>
+</head>
+<body>
+
+  <header>
+    The Philadelphia 76ers
+</header>
+
+    <div class="search-wrapper">
+        <label for="search"></label>
+        <input type="search" id="search" placeholder="Type player name...">
+        
+    </div> 
+    <div class="Player-cards">
+
+
+      <div class="card" data-player="Tyrese Maxey">
+    <div class="player-info">
+        <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1630178.png" alt="Tyrese Maxey">
+        <button class="header" onclick="toggleStats('stats-maxey')">Tyrese Maxey (PG)</button>
+        </div>
+        <div class="body stats" id="stats-maxey">
+                <p>Games Played: 70</p>
+                <p>Games Started: 70</p>
+                <p>Minutes: 37.5</p>
+                <p>Points: 25.9</p>
+                <p>Offensive Rebounds: 0.5</p>
+                <p>Defensive Rebounds: 3.2</p>
+                <p>Total Rebounds: 3.7</p>
+                <p>Assists: 6.2</p>
+                <p>Steals: 1.0</p>
+                <p>Blocks: 0.5</p>
+                <p>Turnovers: 1.7</p>
+                <p>Personal Fouls: 2.2</p>
+                <p>Assist/TO Ratio: 3.7</p>
+            </div>
+        </div>
+
+        <div class="card" data-player="James Harden">
+          <div class="player-info">
+            <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png" alt="">
+            <button class="header" onclick="toggleStats('stats-harden')">James Harden (SG)</button>
+        </div>
+        <div class="body stats" id="stats-harden">
+              <p>Games Played: 58</p>
+              <p>Games Started: 58</p>
+              <p>Minutes: 36.8</p>
+              <p>Points: 21.0</p>
+              <p>Offensive Rebounds: 0.7</p>
+              <p>Defensive Rebounds: 5.4</p>
+              <p>Total Rebounds: 6.1</p>
+              <p>Assists: 10.7</p>
+              <p>Steals: 1.2</p>
+              <p>Blocks: 0.5</p>
+              <p>Turnovers: 3.4</p>
+              <p>Personal Fouls: 1.9</p>
+              <p>Assist/TO Ratio: 3.2</p>
+          </div>
+      </div>
+      
+        <div class="card" data-player="Tobias Harris">
+          <div class="player-info">
+            <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/202699.png" alt="">
+            <button class="header" onclick="toggleStats('stats-harris')">Tobias Harris (F)</button>
+          </div>
+          <div class="body stats" id="stats-harris">
+                <p>Games Played: 70</p>
+                <p>Games Started: 70</p>
+                <p>Minutes: 33.8</p>
+                <p>Points: 17.2</p>
+                <p>Offensive Rebounds: 1.1</p>
+                <p>Defensive Rebounds: 5.3</p>
+                <p>Total Rebounds: 6.5</p>
+                <p>Assists: 3.1</p>
+                <p>Steals: 1.0</p>
+                <p>Blocks: 0.7</p>
+                <p>Turnovers: 1.3</p>
+                <p>Personal Fouls: 1.6</p>
+                <p>Assist/TO Ratio: 2.3</p>
+            </div>
+        </div>
+
+
+        <div class="card" data-player="Joel Embiid">
+          <div class="player-info">
+            <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png" alt="">
+            <button class="header" onclick="toggleStats('stats-embiid')">Joel Embiid (C)</button>
+          </div>
+          <div class="body stats" id="stats-embiid">
+                <p>Games Played: 39</p>
+                <p>Games Started: 39</p>
+                <p>Minutes: 33.6</p>
+                <p>Points: 34.7</p>
+                <p>Offensive Rebounds: 2.4</p>
+                <p>Defensive Rebounds: 8.6</p>
+                <p>Total Rebounds: 11.0</p>
+                <p>Assists: 5.6</p>
+                <p>Steals: 1.2</p>
+                <p>Blocks: 1.7</p>
+                <p>Turnovers: 3.8</p>
+                <p>Personal Fouls: 2.9</p>
+                <p>Assist/TO Ratio: 1.5</p>
+            </div>
+        </div>
+
+
+        <div class="card" data-player="Kelly Oubre Jr.">
+          <div class="player-info">
+            <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1626162.png" alt="">
+            <button class="header" onclick="toggleStats('stats-oubre')">Kelly Oubre Jr. (SG)</button>
+          </div>
+            <div class="body stats" id="stats-oubre">
+                <p>Games Played: 68</p>
+                <p>Games Started: 52</p>
+                <p>Minutes: 30.2</p>
+                <p>Points: 15.4</p>
+                <p>Offensive Rebounds: 1.4</p>
+                <p>Defensive Rebounds: 3.6</p>
+                <p>Total Rebounds: 5.0</p>
+                <p>Assists: 1.5</p>
+                <p>Steals: 1.1</p>
+                <p>Blocks: 0.7</p>
+                <p>Turnovers: 1.3</p>
+                <p>Personal Fouls: 2.9</p>
+                <p>Assist/TO Ratio: 1.2</p>
+            </div>
+        </div>
+
+
+        <div class="card" data-player="Kyle Lowry">
+          <div class="player-info">
+            <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/200768.png" alt="">
+            <button class="header" onclick="toggleStats('stats-lowry')">Kyle Lowry (PG)</button>
+          </div>
+            <div class="body stats" id="stats-lowry">
+                <p>Games Played: 23</p>
+                <p>Games Started: 20</p>
+                <p>Minutes: 28.4</p>
+                <p>Points: 8.0</p>
+                <p>Offensive Rebounds: 0.4</p>
+                <p>Defensive Rebounds: 2.4</p>
+                <p>Total Rebounds: 2.8</p>
+                <p>Assists: 4.6</p>
+                <p>Steals: 0.9</p>
+                <p>Blocks: 0.3</p>
+                <p>Turnovers: 1.4</p>
+                <p>Personal Fouls: 2.3</p>
+                <p>Assist/TO Ratio: 3.3</p>
+            </div>
+        </div>
+
+
+        <div class="card" data-player="De'Anthony Melton">
+          <div class="player-info">
+            <img class="player-image" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066436.png&w=350&h=254" alt="">
+          <button class="header" onclick="toggleStats('stats-melton')">De'Anthony Melton (SG)</button>
+        </div>
+          <div class="body stats" id="stats-melton">
+              <p>Games Played: 38</p>
+              <p>Games Started: 33</p>
+              <p>Minutes: 26.9</p>
+              <p>Points: 11.1</p>
+              <p>Offensive Rebounds: 0.7</p>
+              <p>Defensive Rebounds: 3.0</p>
+              <p>Total Rebounds: 3.7</p>
+              <p>Assists: 3.0</p>
+              <p>Steals: 1.6</p>
+              <p>Blocks: 0.4</p>
+              <p>Turnovers: 1.0</p>
+              <p>Personal Fouls: 2.2</p>
+              <p>Assist/TO Ratio: 2.9</p>
+          </div>
+    </div>
+
+    <div class="card" data-player="Nicolas Batum">
+      <div class="player-info">
+        <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png" alt="">
+      <button class="header" onclick="toggleStats('stats-batum')">Nicolas Batum (PF)</button>
+    </div>
+      <div class="body stats" id="stats-batum">
+        <p>Games Played: 57</p>
+          <p>Games Started: 38</p>
+          <p>Minutes: 25.9</p>
+          <p>Points: 5.5</p>
+          <p>Offensive Rebounds: 1.2</p>
+          <p>Defensive Rebounds: 3.0</p>
+          <p>Total Rebounds: 4.2</p>
+          <p>Assists: 2.2</p>
+          <p>Steals: 0.8</p>
+          <p>Blocks: 0.6</p>
+          <p>Turnovers: 0.7</p>
+          <p>Personal Fouls: 1.8</p>
+          <p>Assist/TO Ratio: 3.2</p>
+      </div>
+  </div>
+  
+  <div class="card" data-player="Danuel House Jr.">
+    <div class="player-info">
+      <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png" alt="">
+    <button class="header" onclick="toggleStats('stats-house')">Danuel House Jr. (F)</button>
+  </div>
+    <div class="body stats" id="stats-house">
+        <p>Games Played: 50</p>
+        <p>Games Started: 5</p>
+        <p>Minutes: 14.4</p>
+        <p>Points: 4.8</p>
+        <p>Offensive Rebounds: 0.4</p>
+        <p>Defensive Rebounds: 1.3</p>
+        <p>Total Rebounds: 1.7</p>
+        <p>Assists: 0.8</p>
+        <p>Steals: 0.5</p>
+        <p>Blocks: 0.4</p>
+        <p>Turnovers: 0.3</p>
+        <p>Personal Fouls: 1.0</p>
+        <p>Assist/TO Ratio: 2.7</p>
+    </div>
+</div>
+
+<div class="card" data-player="Jaden Springer">
+  <div class="player-info">
+    <img class="player-image" src="https://www.basketusa.com/wp-content/themes/theme_busa_2019/_img-players/jaden-springer.png" alt="">
+  <button class="header" onclick="toggleStats('stats-springer')">Jaden Springer (SG)</button>
+</div>
+  <div class="body stats" id="stats-springer">
+      <p>Games Played: 16</p>
+      <p>Games Started: 0</p>
+      <p>Minutes: 5.5</p>
+      <p>Points: 2.6</p>
+      <p>Offensive Rebounds: 0.1</p>
+      <p>Defensive Rebounds: 0.5</p>
+      <p>Total Rebounds: 0.6</p>
+      <p>Assists: 0.2</p>
+      <p>Steals: 0.3</p>
+      <p>Blocks: 0.1</p>
+      <p>Turnovers: 0.1</p>
+      <p>Personal Fouls: 0.5</p>
+      <p>Assist/TO Ratio: 2.0</p>
+  </div>
+</div>
+
+
+  <div class="card" data-player="Buddy Hield">
+    <div class="player-info">
+      <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/1627741.png" alt="">
+    <button class="header" onclick="toggleStats('stats-hield')">Buddy Hield (SG)</button>
+  </div>
+    <div class="body stats" id="stats-hield">
+        <p>Games Played: 32</p>
+        <p>Games Started: 14</p>
+        <p>Minutes: 25.8</p>
+        <p>Points: 12.2</p>
+        <p>Offensive Rebounds: 0.8</p>
+        <p>Defensive Rebounds: 2.3</p>
+        <p>Total Rebounds: 3.2</p>
+        <p>Assists: 3.0</p>
+        <p>Steals: 0.8</p>
+        <p>Blocks: 0.3</p>
+        <p>Turnovers: 1.3</p>
+        <p>Personal Fouls: 2.1</p>
+        <p>Assist/TO Ratio: 2.4</p>
+    </div>
+</div>
+
+<div class="card" data-player="P.J. Tucker">
+  <div class="player-info">
+    <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/200782.png" alt="">
+  <button class="header" onclick="toggleStats('stats-tucker')">P.J. Tucker (PF)</button>
+</div>
+  <div class="body stats" id="stats-tucker">
+      <p>Games Played: 3</p>
+      <p>Games Started: 3</p>
+      <p>Minutes: 22.0</p>
+      <p>Points: 2.0</p>
+      <p>Offensive Rebounds: 0.3</p>
+      <p>Defensive Rebounds: 4.3</p>
+      <p>Total Rebounds: 4.7</p>
+      <p>Assists: 0.0</p>
+      <p>Steals: 1.0</p>
+      <p>Blocks: 0.7</p>
+      <p>Turnovers: 0.7</p>
+      <p>Personal Fouls: 3.0</p>
+      <p>Assist/TO Ratio: 0.0</p>
+  </div>
+</div>
+
+<div class="card" data-player="Patrick Beverley">
+  <div class="player-info">
+    <img class="player-image" src="https://b.fssta.com/uploads/application/nba/headshots/1774.vresize.350.350.medium.75.png" alt="">
+  <button class="header" onclick="toggleStats('stats-beverley')">Patrick Beverley (PG)</button>
+</div>
+  <div class="body stats" id="stats-beverley">
+      <p>Games Played: 47</p>
+      <p>Games Started: 5</p>
+      <p>Minutes: 19.6</p>
+      <p>Points: 6.3</p>
+      <p>Offensive Rebounds: 0.6</p>
+      <p>Defensive Rebounds: 2.4</p>
+      <p>Total Rebounds: 3.1</p>
+      <p>Assists: 3.1</p>
+      <p>Steals: 0.5</p>
+      <p>Blocks: 0.4</p>
+      <p>Turnovers: 1.0</p>
+      <p>Personal Fouls: 1.8</p>
+      <p>Assist/TO Ratio: 2.9</p>
+  </div>
+</div>
+
+<div class="card" data-player="Cameron Payne">
+  <div class="player-info">
+    <img class="player-image" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064230.png&w=350&h=254" alt="">
+  <button class="header" onclick="toggleStats('stats-payne')">Cameron Payne (PG)</button>
+</div>
+  <div class="body stats" id="stats-payne">
+      <p>Games Played: 31</p>
+      <p>Games Started: 8</p>
+      <p>Minutes: 19.4</p>
+      <p>Points: 9.3</p>
+      <p>Offensive Rebounds: 0.5</p>
+      <p>Defensive Rebounds: 1.3</p>
+      <p>Total Rebounds: 1.8</p>
+      <p>Assists: 3.1</p>
+      <p>Steals: 0.6</p>
+      <p>Blocks: 0.3</p>
+      <p>Turnovers: 1.1</p>
+      <p>Personal Fouls: 1.7</p>
+      <p>Assist/TO Ratio: 2.7</p>
+  </div>
+</div>
+
+<div class="card" data-player="Paul Reed">
+  <div class="player-info">
+    <img class="player-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7hUJStmk_ea3NOhXPA8nM7D0rQJs7EauRJUD9tBkB1AOikn3uq9m9zoJE-lzsr1MDKvVFiv0cYKLclAPyPQlWV8Neq3tFs6sH0xrNbnW" alt="">
+  <button class="header" onclick="toggleStats('stats-reed')">Paul Reed (F)</button>
+</div>
+  <div class="body stats" id="stats-reed">
+      <p>Games Played: 82</p>
+      <p>Games Started: 24</p>
+      <p>Minutes: 19.4</p>
+      <p>Points: 7.3</p>
+      <p>Offensive Rebounds: 2.4</p>
+      <p>Defensive Rebounds: 3.6</p>
+      <p>Total Rebounds: 6.0</p>
+      <p>Assists: 1.3</p>
+      <p>Steals: 0.8</p>
+      <p>Blocks: 1.0</p>
+      <p>Turnovers: 0.8</p>
+      <p>Personal Fouls: 2.4</p>
+      <p>Assist/TO Ratio: 1.6</p>
+  </div>
+</div>
+
+<div class="card" data-player="Marcus Morris Sr.">
+  <div class="player-info">
+    <img class="player-image" src="https://b.fssta.com/uploads/application/nba/headshots/1687.png" alt="">
+  <button class="header" onclick="toggleStats('stats-morris')">Marcus Morris Sr. (F)</button>
+</div>
+  <div class="body stats" id="stats-morris">
+      <p>Games Played: 37</p>
+      <p>Games Started: 7</p>
+      <p>Minutes: 17.2</p>
+      <p>Points: 6.7</p>
+      <p>Offensive Rebounds: 0.5</p>
+      <p>Defensive Rebounds: 2.5</p>
+      <p>Total Rebounds: 2.9</p>
+      <p>Assists: 0.7</p>
+      <p>Steals: 0.4</p>
+      <p>Blocks: 0.3</p>
+      <p>Turnovers: 0.5</p>
+      <p>Personal Fouls: 1.6</p>
+      <p>Assist/TO Ratio: 1.4</p>
+  </div>
+</div>
+
+<div class="card" data-player="Robert Covington">
+  <div class="player-info">
+    <img class="player-image" src="https://cdn.nba.com/headshots/nba/latest/1040x760/203496.png" alt="">
+  <button class="header" onclick="toggleStats('stats-covington')">Robert Covington (PF)</button>
+</div>
+  <div class="body stats" id="stats-covington">
+      <p>Games Played: 26</p>
+      <p>Games Started: 3</p>
+      <p>Minutes: 16.1</p>
+      <p>Points: 4.5</p>
+      <p>Offensive Rebounds: 1.1</p>
+      <p>Defensive Rebounds: 2.3</p>
+      <p>Total Rebounds: 3.4</p>
+      <p>Assists: 0.7</p>
+      <p>Steals: 1.3</p>
+      <p>Blocks: 0.6</p>
+      <p>Turnovers: 0.4</p>
+      <p>Personal Fouls: 1.9</p>
+      <p>Assist/TO Ratio: 1.5</p>
+  </div>
+</div>
+
+
+<div class="card" data-player="Mo Bamba">
+  <div class="player-info">
+    <img class="player-image" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4277919.png&w=350&h=254" alt="">
+  <button class="header" onclick="toggleStats('stats-bamba')">Mo Bamba (C)</button>
+</div>
+  <div class="body stats" id="stats-bamba">
+      <p>Games Played: 49</p>
+      <p>Games Started: 0</p>
+      <p>Minutes: 8.7</p>
+      <p>Points: 3.7</p>
+      <p>Offensive Rebounds: 0.6</p>
+      <p>Defensive Rebounds: 2.8</p>
+      <p>Total Rebounds: 3.4</p>
+      <p>Assists: 0.5</p>
+      <p>Steals: 0.2</p>
+      <p>Blocks: 0.7</p>
+      <p>Turnovers: 0.2</p>
+      <p>Personal Fouls: 1.0</p>
+      <p>Assist/TO Ratio: 2.5</p>
+  </div>
+</div>
+
+    <script>
+        function toggleStats(playerId) {
+            const stats = document.getElementById(playerId);
+            stats.style.display = stats.style.display === "none" || stats.style.display === "" ? "block" : "none";
+        }
+
+        document.getElementById('search').addEventListener('input', function(event) {
+            const searchTerm = event.target.value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const playerName = card.getAttribute('data-player').toLowerCase();
+                card.style.display = playerName.includes(searchTerm) ? "block" : "none";
+            });
+        });
+    </script>
+</body>
+</html>
